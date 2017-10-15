@@ -9,7 +9,7 @@ If Node.js is used, please add one node task as a script in package.json
 Any testing framework libraries can be used
 
 
-# hcl-ui-test
+# react-redux-webpack-registration
 A app which help in basic user registration. App is written in react, redux and react-router with the help of webpack.
 
 Contains: 
