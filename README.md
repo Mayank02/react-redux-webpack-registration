@@ -1,4 +1,4 @@
-# UI Application Excercis
+# UI Application Exercise
 
 Create a simple registration screen
 Call a Mock API on submission of data
