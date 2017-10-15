@@ -1,0 +1,41 @@
+.register {
+    .register-form-wrapper {
+        margin: auto;
+    }
+    .form-element {
+        margin: 1% 0;
+    }
+    .buttons {
+        padding: 15px;
+    }
+    .register-form {
+        background: #fdfdfd;
+        border: 1px solid #8a8a8a;
+        border-radius: 10px;
+        box-shadow: 0px 0px 14px #888888;
+        padding: 5%;
+    }
+    #email,
+    #dob,
+    #password {
+        font-size: 14px;
+    }
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width: 320px) {
+        .register-form-wrapper {
+            padding: 25% 1%;
+        }
+    }
+    /* Small Devices, Tablets, IPAD */
+    @media only screen and (min-width: 768px) {
+        .register-form-wrapper {
+            padding: 40% 1%;
+        }
+    }
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 992px) {
+        .register-form-wrapper {
+            padding: 10% 5%;
+        }
+    }
+}

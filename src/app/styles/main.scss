@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./Register.scss";
+@import "./page-not-found.scss";
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    .content {
+        background: #e8e8e7;
+    }
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width: 320px) {
+        .content {
+            min-height: 650px;
+        }
+    }
+    /* Small Devices, Tablets, IPAD */
+    @media only screen and (min-width: 768px) {
+        .content {
+            min-height: 990px;
+        }
+    }
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 992px) {
+        .content {
+            min-height: 700px;
+        }
+    }
+}
